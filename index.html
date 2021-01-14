@@ -4,6 +4,7 @@
         <title>Google</title>
         <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2d/Google-favicon-2015.png" type="image/x-icon">
         <link href="style/style.css" type="text/css" rel="stylesheet">
+        <script src="script.js"></script>
     </head>
     <body>
         <header>
@@ -36,10 +37,10 @@
         </header>
         <main>
                 <img src="https://www.google.de/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="The google company logo" id="logo">
-                <form id="search-request">
+                <form>
                     <input type="text" id="search-request" class="textbox"><br>
-                    <button type="submit" id="search-request" class="button2">Google Suche</button>
-                    <button type="submit" id="lucky" class="button1">Auf gut Glück!</button>
+                    <button onclick="redirect_google()" class="button2">Google Suche</button>
+                    <button onclick="redirect_google()" class="button1">Auf gut Glück!</button>
                 </form>
         </main>
 
